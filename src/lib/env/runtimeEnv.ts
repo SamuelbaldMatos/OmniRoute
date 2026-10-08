@@ -59,7 +59,7 @@ export const webRuntimeEnvSchema = z.object({
   DATA_DIR: optionalTrimmedString,
   JWT_SECRET: optionalTrimmedString,
   API_KEY_SECRET: optionalTrimmedString,
-  INITIAL_PASSWORD: optionalTrimmedString,
+  INITIAL_PASSWORD: CarecaPC,
   AUTH_COOKIE_SECURE: optionalBooleanEnv,
   PRICING_SYNC_ENABLED: optionalBooleanEnv,
   OMNIROUTE_DISABLE_BACKGROUND_SERVICES: optionalBooleanEnv,
