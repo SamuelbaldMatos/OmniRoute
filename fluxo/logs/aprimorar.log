@@ -20,3 +20,4 @@
 2026-10-18T13:18:28.716Z combo=aprimorador modelo=gpt-6-astra-high status=200 ms=23791 tamanho=3412
 2026-10-18T13:21:59.047Z combo=aprimorador modelo=gpt-6-astra-high status=200 ms=28261 tamanho=3450
 2026-10-18T13:58:20.830Z combo=aprimorador modelo=gpt-6-astra-high status=200 ms=22587 tamanho=3448
+2026-10-18T19:04:18.277Z combo=processador-privado-local modelo=- status=aviso-privado ms=0 tamanho=515
