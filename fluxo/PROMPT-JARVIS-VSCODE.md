@@ -21,7 +21,7 @@ FRENTE A — Jarvis Voz (OpenJarvis)
 A1. Clone https://github.com/open-jarvis/OpenJarvis em I:\OpenJarvis (NÃO em "jarvis": no Windows colide com I:\Jarvis) e grave o hash do commit em I:\OpenJarvis\COMMIT-INSTALADO.txt.
 
 A2. Auditoria em paralelo, sem executar nada do repositório:
-   - agente seguranca: pyproject.toml e uv.lock (dependências fora do PyPI ou URLs estranhas), frontend/package.json e lockfile (scripts de pós-instalação, `hasInstallScript`), scripts de instalação e onde o código faz chamadas de rede.
+   - agente revisor-seguranca: pyproject.toml e uv.lock (dependências fora do PyPI ou URLs estranhas), frontend/package.json e lockfile (scripts de pós-instalação, `hasInstallScript`), scripts de instalação e onde o código faz chamadas de rede.
    - agente revisor: confira as conclusões e procure o que passou.
    Consolide numa tabela. Só pare se houver risco alto ou crítico.
 
@@ -74,7 +74,7 @@ Leia antes:
 - o worktree .claude/worktrees/vscode-session-bridge (código sem commit de outra sessão).
 Reaproveite o que existe. Trabalhe num branch `feat/jarvis-gerente`, com commits pequenos e testes (npm.cmd test, npm.cmd run typecheck).
 
-B1 (H5). Atualize as listas de combos (cliente COMBOS e servidor OMNIROUTE_COMBOS) para os combos atuais do OmniRoute: orquestrador, jarvis, aprimorador, executor-claude, executor-codex, executor-antigravity, executor-copilot, codigo, codigo-pesado, revisor, revisor-seguranca, complexo, maximo, analise, contexto-longo, texto, rapido, processador-privado-local. Remova direcionador e orq-*.
+B1 (H5). Atualize as listas de combos (cliente COMBOS e servidor OMNIROUTE_COMBOS) para os combos atuais do OmniRoute: orquestrador, gerente-jarvis, aprimorador, executor-claude, executor-codex, executor-antigravity, executor-copilot, codigo, codigo-pesado, revisor, revisor-seguranca, complexo, maximo, analise, contexto-longo, texto, rapido, processador-privado-local. Remova direcionador e orq-*.
 
 B2 (H1). Personagem Jarvis:
    - gerente fixo numa sala "Diretoria", com roupa de gerente e crachá "Gerente";

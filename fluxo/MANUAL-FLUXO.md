@@ -71,7 +71,7 @@ O gancho também detecta alguns dados sensíveis sozinho (CPF, CNPJ, cartão, ch
   `orquestrador` passa para a nuvem (GPT, Gemini, Claude) com o histórico junto. E a compactação automática usa o
   combo `compactador`, que é de nuvem: o texto da conversa pode ir para lá nesse momento.
 - Por isso, com dado sensível: confira `ollama ps` antes; não cole o dado na conversa. Salve num arquivo, escreva
-  `#privado` e diga só o caminho ("#privado resuma C:\...\laudo.pdf"). O `privado` lê o arquivo no PC e devolve o
+  `#privado` e diga só o caminho ("#privado resuma C:\...\laudo.pdf"). O `processador-privado-local` lê o arquivo no PC e devolve o
   resultado anonimizado.
 
 ## Combos
@@ -92,7 +92,7 @@ O gancho também detecta alguns dados sensíveis sozinho (CPF, CNPJ, cartão, ch
 | `processador-privado-local` | dado sensível: o combo só tem Ollama | só Ollama |
 | `compactador` | resumo automático do contexto (nuvem) | Gemini Flash |
 
-O combo `direcionador` foi apagado; o agente `direcionador` agora é só um apelido do `aprimorador`.
+O combo e o agente `direcionador` foram removidos em 2026-10-18: use o `aprimorador`.
 
 ## Debate e revisão
 
