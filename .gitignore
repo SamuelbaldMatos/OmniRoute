@@ -301,3 +301,10 @@ docker-compose.yml.bak
 
 # run-translation.mjs writes the state atomically via a per-process temp file
 /.i18n-state.json.*.tmp
+
+# Dados sensíveis e logs locais (nunca versionar)
+backups/**/storage.sqlite
+backups/**/cli-token-salt.json
+debug.log
+vigia.log
+fluxo/logs/
