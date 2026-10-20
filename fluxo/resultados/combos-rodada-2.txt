@@ -1,0 +1,33 @@
+2026-10-20T20:06:21.086Z  combos: 29 chamadas, max_tokens=600
+OK   complexo                                     tool HTTP 200   2082 ms  gpt-6-astra-xhigh              tool_use
+OK   orquestrador                                 tool HTTP 200   2120 ms  gpt-6-astra-high               tool_use
+OK   orquestrador                                 txt  HTTP 200   2717 ms  gpt-6-astra-high               110 chars
+OK   revisor                                      txt  HTTP 200   1573 ms  gpt-6-sol-high                 110 chars
+OK   codigo                                       txt  HTTP 200   1796 ms  gpt-6-sol-medium               110 chars
+OK   codigo                                       tool HTTP 200   1455 ms  gpt-6-sol-medium               tool_use
+OK   complexo                                     txt  HTTP 200   4828 ms  gpt-6-astra-xhigh              97 chars
+OK   codigo-pesado                                txt  HTTP 200   2443 ms  gpt-6-astra-high               111 chars
+OK   codigo-pesado                                tool HTTP 200   2337 ms  gpt-6-astra-high               tool_use
+OK   texto                                        txt  HTTP 200   1590 ms  gpt-6-sol-medium               94 chars
+OK   contexto-longo                               txt  HTTP 200   2516 ms  gpt-6-sol-high                 111 chars
+OK   analise                                      txt  HTTP 200   1967 ms  gpt-6-sol-medium               81 chars
+OK   rapido                                       txt  HTTP 200   2087 ms  gpt-6-sol-medium               110 chars
+OK   maximo                                       tool HTTP 200   2468 ms  gpt-6-astra-max                tool_use
+OK   compactador                                  txt  HTTP 200   1610 ms  gpt-6-sol-medium               81 chars
+OK   maximo                                       txt  HTTP 200   5907 ms  gpt-6-astra-max                98 chars
+OK   aprimorador                                  txt  HTTP 200   2104 ms  gpt-6-astra-high               110 chars
+OK   revisor-seguranca                            txt  HTTP 200   5129 ms  gpt-6-astra-xhigh              98 chars
+OK   executor-claude                              txt  HTTP 200   2653 ms  gpt-6-astra-high               110 chars
+OK   executor-claude                              tool HTTP 200   2324 ms  gpt-6-astra-high               tool_use
+OK   executor-codex                               txt  HTTP 200   2174 ms  gpt-6-astra-high               110 chars
+OK   executor-antigravity                         txt  HTTP 200   1707 ms  gpt-6-sol-high                 68 chars
+OK   executor-antigravity                         tool HTTP 200   1659 ms  gpt-6-sol-high                 tool_use
+OK   executor-copilot                             txt  HTTP 200   1609 ms  gpt-6-sol-high                 98 chars
+OK   executor-codex                               tool HTTP 200   3660 ms  gpt-6-astra-high               tool_use
+OK   executor-copilot                             tool HTTP 200   1824 ms  gpt-6-sol-high                 tool_use
+OK   gerente-jarvis                               txt  HTTP 200  94233 ms  gpt-6-astra-high               115 chars
+OK   gerente-jarvis                               tool HTTP 200  94608 ms  gpt-6-astra-high               tool_use
+FALHA processador-privado-local                    txt  HTTP 0   303305 ms  -                              0 chars  fetch failed
+
+Resumo: 28/29 OK; falharam: processador-privado-local
+exit=1

@@ -1,0 +1,17 @@
+2026-10-20T20:01:04.052Z  combo-base: codigo = cx/gpt-6-sol-medium > cx/gpt-6-luna-high > cx/gpt-6-luna-medium > agy/claude-sonnet-4-6 > moonshot/kimi-k2.7-code > ollama-local/gemma4:12b
+
+OK    prova-falha-1-desabilitado txt  1º alvo: cx/gpt-6-sol-medium (conexão inexistente)
+      HTTP 200 em 2864 ms; respondeu gpt-6-sol-medium: Failover é a troca automática para um sistema de reserva quando o sist
+OK    prova-falha-1-desabilitado tool 1º alvo: cx/gpt-6-sol-medium (conexão inexistente)
+      HTTP 200 em 1817 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+OK    prova-falha-2-sem-auth     txt  1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 2002 ms; respondeu gpt-6-sol-medium: Failover é a transferência automática para um sistema de reserva quand
+OK    prova-falha-2-sem-auth     tool 1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 2002 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+OK    prova-falha-3-pendurado    txt  1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 16700 ms; respondeu gpt-6-sol-medium: Failover é a troca automática para um sistema de reserva quando o sist
+FALHA prova-falha-3-pendurado    tool 1º alvo: ollama-local/orq-qwen:latest
+      HTTP 504 em 30079 ms; respondeu -: - | erro: ollama-local/orq-qwen:latest: provider — Model ollama-local/orq-qwen:latest timed out (HTTP 504); ollama-local/gemma4:12b: provider — Model ollama-local/gemma4:12b timed out (HTTP 504)
+
+combos temporários restantes: 0
+exit=1

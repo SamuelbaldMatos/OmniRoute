@@ -1,0 +1,17 @@
+2026-10-20T20:40:15.667Z  combo-base: codigo = cx/gpt-6-sol-medium > cx/gpt-6-luna-high > cx/gpt-6-luna-medium > agy/claude-sonnet-4-6 > moonshot/kimi-k2.7-code > ollama-local/gemma4:12b
+
+OK    prova-falha-1-desabilitado txt  1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 1738 ms; respondeu gpt-6-sol-medium: Failover é a troca automática para um sistema de reserva quando o sist
+OK    prova-falha-1-desabilitado tool 1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 1807 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+OK    prova-falha-2-fora-catalogo txt  1º alvo: agy/gemini-pro-agent
+      HTTP 200 em 2088 ms; respondeu gpt-6-sol-medium: Failover é a troca automática para um sistema reserva quando o sistema
+OK    prova-falha-2-fora-catalogo tool 1º alvo: agy/gemini-pro-agent
+      HTTP 200 em 1613 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+OK    prova-falha-3-pendurado    txt  1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 61672 ms; respondeu gpt-6-sol-medium: Failover é a transferência automática para um sistema de reserva quand
+OK    prova-falha-3-pendurado    tool 1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 107441 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+
+combos temporários restantes: 0
+exit=0

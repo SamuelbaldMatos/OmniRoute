@@ -1,0 +1,68 @@
+{
+ "quando": "2026-10-20T19:52:42.864Z",
+ "modo": "alvos",
+ "res": [
+  {
+   "modelo": "ollama-local/gemma4:12b",
+   "ferramenta": false,
+   "status": 0,
+   "ms": 290004,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "timeout do cliente (290000 ms)",
+   "combos": [
+    "orquestrador",
+    "complexo",
+    "revisor",
+    "codigo",
+    "codigo-pesado",
+    "contexto-longo",
+    "texto",
+    "analise",
+    "rapido",
+    "maximo",
+    "revisor-seguranca",
+    "compactador",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "ollama-local/gemma4:12b",
+   "ferramenta": true,
+   "status": 0,
+   "ms": 290006,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "timeout do cliente (290000 ms)",
+   "combos": [
+    "orquestrador",
+    "complexo",
+    "revisor",
+    "codigo",
+    "codigo-pesado",
+    "contexto-longo",
+    "texto",
+    "analise",
+    "rapido",
+    "maximo",
+    "revisor-seguranca",
+    "compactador",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot"
+   ]
+  }
+ ]
+}

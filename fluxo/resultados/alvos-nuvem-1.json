@@ -1,0 +1,942 @@
+{
+ "quando": "2026-10-20T19:04:46.249Z",
+ "modo": "alvos",
+ "res": [
+  {
+   "modelo": "cx/gpt-6-astra-high",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2333,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 115,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador",
+    "codigo-pesado",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-astra-high",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2956,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador",
+    "codigo-pesado",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-pro-agent",
+   "ferramenta": false,
+   "status": 400,
+   "ms": 148,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'gemini-pro-agent' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "contexto-longo",
+    "analise",
+    "executor-codex",
+    "executor-antigravity",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-pro-agent",
+   "ferramenta": true,
+   "status": 400,
+   "ms": 174,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'gemini-pro-agent' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "contexto-longo",
+    "analise",
+    "executor-codex",
+    "executor-antigravity",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-sonnet-4-6",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 91,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-sonnet-4-6] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after 5m 51s)",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "texto",
+    "analise",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-sonnet-4-6",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 70,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-sonnet-4-6] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after 5m 51s)",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "texto",
+    "analise",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "cc/claude-sonnet-5",
+   "ferramenta": false,
+   "status": 401,
+   "ms": 25,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "codigo-pesado",
+    "contexto-longo",
+    "texto",
+    "analise",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "cc/claude-sonnet-5",
+   "ferramenta": true,
+   "status": 401,
+   "ms": 40,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "orquestrador",
+    "revisor",
+    "codigo-pesado",
+    "contexto-longo",
+    "texto",
+    "analise",
+    "aprimorador",
+    "executor-claude",
+    "executor-codex",
+    "executor-antigravity",
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "cc/claude-opus-5",
+   "ferramenta": false,
+   "status": 401,
+   "ms": 38,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "orquestrador",
+    "complexo",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador",
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "cc/claude-opus-5",
+   "ferramenta": true,
+   "status": 401,
+   "ms": 36,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "orquestrador",
+    "complexo",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador",
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "agy/claude-opus-4-6-thinking",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 83,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-opus-4-6-thinking] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after ",
+   "combos": [
+    "complexo",
+    "codigo-pesado",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador"
+   ]
+  },
+  {
+   "modelo": "agy/claude-opus-4-6-thinking",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 65,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-opus-4-6-thinking] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after ",
+   "combos": [
+    "complexo",
+    "codigo-pesado",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-astra-xhigh",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 5574,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 111,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo",
+    "revisor-seguranca"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-astra-xhigh",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2470,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo",
+    "revisor-seguranca"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-opus-4-6-thinking",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 27,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-opus-4-6-thinking] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after ",
+   "combos": [
+    "complexo",
+    "codigo-pesado",
+    "contexto-longo",
+    "analise",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador",
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-opus-4-6-thinking",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 25,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-opus-4-6-thinking] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after ",
+   "combos": [
+    "complexo",
+    "codigo-pesado",
+    "contexto-longo",
+    "analise",
+    "maximo",
+    "revisor-seguranca",
+    "aprimorador",
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-sol-high",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1891,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 94,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor",
+    "codigo-pesado",
+    "contexto-longo",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-sol-high",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1991,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor",
+    "codigo-pesado",
+    "contexto-longo",
+    "executor-codex",
+    "executor-antigravity",
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-3.8-flash-high",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 18,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-high are cooling down",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-3.8-flash-high",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 47,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-high are cooling down",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "antigravity/gemini-3.8-flash-tiered",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 24,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-tiered are cooling down",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "antigravity/gemini-3.8-flash-tiered",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 22,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-tiered are cooling down",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-sol-medium",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2121,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo",
+    "texto",
+    "analise",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-sol-medium",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2322,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo",
+    "texto",
+    "analise",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-luna-medium",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 11385,
+   "respondeu": "gpt-6-luna-medium",
+   "texto": 74,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-luna-medium",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 11396,
+   "respondeu": "gpt-6-luna-medium",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo",
+    "rapido",
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "cc/claude-sonnet-4-6",
+   "ferramenta": false,
+   "status": 401,
+   "ms": 24,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "codigo",
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "cc/claude-sonnet-4-6",
+   "ferramenta": true,
+   "status": 401,
+   "ms": 22,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[claude] All 1 connection(s) authentication expired — please reconnect in the dashboard",
+   "combos": [
+    "codigo",
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "agy/claude-sonnet-4-6",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 42,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-sonnet-4-6] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after 5m 45s)",
+   "combos": [
+    "texto",
+    "executor-claude",
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "agy/claude-sonnet-4-6",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 29,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[antigravity/claude-sonnet-4-6] All antigravity accounts have exhausted their quota (cached quota state, no upstream attempt; earliest reset reset after 5m 45s)",
+   "combos": [
+    "texto",
+    "executor-claude",
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-astra-max",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 13414,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-astra-max",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 10790,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-5.5-xhigh",
+   "ferramenta": false,
+   "status": 400,
+   "ms": 414,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "{\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-5.5-xhigh",
+   "ferramenta": true,
+   "status": 400,
+   "ms": 405,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "{\"detail\":\"The 'gpt-5.5' model is not supported when using Codex with a ChatGPT account.\"}",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "gh/claude-sonnet-5",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 20,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/claude-sonnet-5] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 20s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/claude-sonnet-5",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 40,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/claude-sonnet-5] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 20s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gpt-5.6-sol",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 25,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gpt-5.6-sol] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 20s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gpt-5.6-sol",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 19,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gpt-5.6-sol] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 20s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gemini-3.1-pro-preview",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 23,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gemini-3.1-pro-preview] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 19s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gemini-3.1-pro-preview",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 21,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gemini-3.1-pro-preview] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 19s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gpt-5.3-codex",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 21,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gpt-5.3-codex] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 19s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gh/gpt-5.3-codex",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 21,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[github/gpt-5.3-codex] Quota preflight blocked for claude-sonnet-5: 100% (reset after 268h 55m 19s)",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-luna-high",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2615,
+   "respondeu": "gpt-6-luna-high",
+   "texto": 105,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-6-luna-high",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1716,
+   "respondeu": "gpt-6-luna-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-5.6-sol-high",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 4628,
+   "respondeu": "gpt-5.6-sol-high",
+   "texto": 95,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cx/gpt-5.6-sol-high",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2175,
+   "respondeu": "gpt-5.6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-3.8-flash-medium",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 14,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-medium are cooling down",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "agy/gemini-3.8-flash-medium",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 13,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3.8-flash-medium are cooling down",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "agy/claude-sonnet-4-6-high",
+   "ferramenta": false,
+   "status": 400,
+   "ms": 29,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'claude-sonnet-4-6-high' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "agy/claude-sonnet-4-6-high",
+   "ferramenta": true,
+   "status": 400,
+   "ms": 34,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'claude-sonnet-4-6-high' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-sonnet-4-6-high",
+   "ferramenta": false,
+   "status": 400,
+   "ms": 30,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'claude-sonnet-4-6-high' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "antigravity/claude-sonnet-4-6-high",
+   "ferramenta": true,
+   "status": 400,
+   "ms": 26,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Model 'claude-sonnet-4-6-high' is not available in the active live catalog for provider 'antigravity'.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "antigravity/gemini-3-flash",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 20,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3-flash are cooling down",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "antigravity/gemini-3-flash",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 24,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "All credentials for model gemini-3-flash are cooling down",
+   "combos": [
+    "(candidato)"
+   ]
+  }
+ ]
+}

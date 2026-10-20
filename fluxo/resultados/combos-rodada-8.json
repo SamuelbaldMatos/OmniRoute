@@ -1,0 +1,441 @@
+{
+ "quando": "2026-10-20T21:06:03.505Z",
+ "modo": "combos",
+ "res": [
+  {
+   "modelo": "orquestrador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 132635,
+   "respondeu": "gemma4:12b",
+   "texto": 107,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador"
+   ]
+  },
+  {
+   "modelo": "orquestrador",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 133753,
+   "respondeu": "gemma4:12b",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador"
+   ]
+  },
+  {
+   "modelo": "complexo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 4672,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 98,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo"
+   ]
+  },
+  {
+   "modelo": "complexo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2303,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo"
+   ]
+  },
+  {
+   "modelo": "revisor",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1644,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 98,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor"
+   ]
+  },
+  {
+   "modelo": "codigo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1599,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 81,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo"
+   ]
+  },
+  {
+   "modelo": "codigo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1445,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo"
+   ]
+  },
+  {
+   "modelo": "codigo-pesado",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2271,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 115,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo-pesado"
+   ]
+  },
+  {
+   "modelo": "codigo-pesado",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1814,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo-pesado"
+   ]
+  },
+  {
+   "modelo": "contexto-longo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1599,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 68,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "contexto-longo"
+   ]
+  },
+  {
+   "modelo": "texto",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1886,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 117,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "texto"
+   ]
+  },
+  {
+   "modelo": "analise",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1986,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 105,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "analise"
+   ]
+  },
+  {
+   "modelo": "rapido",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1756,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 93,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "rapido"
+   ]
+  },
+  {
+   "modelo": "maximo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 5695,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 92,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "maximo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2559,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "processador-privado-local",
+   "ferramenta": false,
+   "status": 504,
+   "ms": 270088,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "ollama-local/orq-qwen:latest: provider — Model ollama-local/orq-qwen:latest timed out (HTTP 504); ollama-local/orq-gemma:latest: provider — Model ollama-local/o",
+   "combos": [
+    "processador-privado-local"
+   ]
+  },
+  {
+   "modelo": "revisor-seguranca",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 4259,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 114,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor-seguranca"
+   ]
+  },
+  {
+   "modelo": "compactador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2167,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 68,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "aprimorador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2647,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 111,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "aprimorador"
+   ]
+  },
+  {
+   "modelo": "executor-claude",
+   "ferramenta": false,
+   "status": 0,
+   "ms": 300017,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "timeout do cliente (300000 ms)",
+   "combos": [
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "executor-claude",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1667,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "executor-codex",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2199,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 111,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "executor-codex",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2240,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "executor-antigravity",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1831,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 93,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "executor-antigravity",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1773,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "executor-copilot",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2300,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 105,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "executor-copilot",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1526,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gerente-jarvis",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 63476,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 97,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "gerente-jarvis",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 62904,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "gerente-jarvis"
+   ]
+  }
+ ]
+}

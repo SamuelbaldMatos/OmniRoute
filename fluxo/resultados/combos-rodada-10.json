@@ -1,0 +1,441 @@
+{
+ "quando": "2026-10-20T21:13:43.206Z",
+ "modo": "combos",
+ "res": [
+  {
+   "modelo": "orquestrador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2416,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador"
+   ]
+  },
+  {
+   "modelo": "orquestrador",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2106,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "orquestrador"
+   ]
+  },
+  {
+   "modelo": "complexo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 3885,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 115,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo"
+   ]
+  },
+  {
+   "modelo": "complexo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2458,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo"
+   ]
+  },
+  {
+   "modelo": "revisor",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2652,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor"
+   ]
+  },
+  {
+   "modelo": "codigo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1501,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 68,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo"
+   ]
+  },
+  {
+   "modelo": "codigo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2173,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo"
+   ]
+  },
+  {
+   "modelo": "codigo-pesado",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2689,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo-pesado"
+   ]
+  },
+  {
+   "modelo": "codigo-pesado",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 3143,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo-pesado"
+   ]
+  },
+  {
+   "modelo": "contexto-longo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1671,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 81,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "contexto-longo"
+   ]
+  },
+  {
+   "modelo": "texto",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2341,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 113,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "texto"
+   ]
+  },
+  {
+   "modelo": "analise",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1515,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 81,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "analise"
+   ]
+  },
+  {
+   "modelo": "rapido",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1538,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "rapido"
+   ]
+  },
+  {
+   "modelo": "maximo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 4319,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "maximo",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1997,
+   "respondeu": "gpt-6-astra-max",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "processador-privado-local",
+   "ferramenta": false,
+   "status": 504,
+   "ms": 180067,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "ollama-local/orq-qwen:latest: provider — Model ollama-local/orq-qwen:latest timed out (HTTP 504); ollama-local/orq-gemma:latest: provider — Model ollama-local/o",
+   "combos": [
+    "processador-privado-local"
+   ]
+  },
+  {
+   "modelo": "revisor-seguranca",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 4605,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 98,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor-seguranca"
+   ]
+  },
+  {
+   "modelo": "compactador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1634,
+   "respondeu": "gpt-6-sol-medium",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "compactador"
+   ]
+  },
+  {
+   "modelo": "aprimorador",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1830,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "aprimorador"
+   ]
+  },
+  {
+   "modelo": "executor-claude",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 2051,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 115,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "executor-claude",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2350,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-claude"
+   ]
+  },
+  {
+   "modelo": "executor-codex",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 3107,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 111,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "executor-codex",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 2008,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-codex"
+   ]
+  },
+  {
+   "modelo": "executor-antigravity",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1919,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 109,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "executor-antigravity",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1695,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-antigravity"
+   ]
+  },
+  {
+   "modelo": "executor-copilot",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 1483,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 110,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "executor-copilot",
+   "ferramenta": true,
+   "status": 200,
+   "ms": 1592,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 16,
+   "tool": true,
+   "stop": "tool_use",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "executor-copilot"
+   ]
+  },
+  {
+   "modelo": "gerente-jarvis",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 62003,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 111,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "gerente-jarvis"
+   ]
+  },
+  {
+   "modelo": "gerente-jarvis",
+   "ferramenta": true,
+   "status": 504,
+   "ms": 225468,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "ollama-local/orq-qwen:latest: provider — Model ollama-local/orq-qwen:latest timed out (HTTP 504); ollama-local/gemma4:12b: provider — Model ollama-local/gemma4:",
+   "combos": [
+    "gerente-jarvis"
+   ]
+  }
+ ]
+}

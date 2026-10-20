@@ -1,0 +1,33 @@
+2026-10-20T20:31:38.390Z  combos: 29 chamadas, max_tokens=600
+OK   orquestrador                                 txt  HTTP 200   2077 ms  gpt-6-astra-high               114 chars
+OK   orquestrador                                 tool HTTP 200   2170 ms  gpt-6-astra-high               tool_use
+OK   complexo                                     txt  HTTP 200   2577 ms  gpt-6-astra-xhigh              114 chars
+OK   complexo                                     tool HTTP 200   2858 ms  gpt-6-astra-xhigh              tool_use
+OK   revisor                                      txt  HTTP 200   1617 ms  gpt-6-sol-high                 81 chars
+OK   codigo                                       txt  HTTP 200   1690 ms  gpt-6-sol-medium               98 chars
+OK   codigo                                       tool HTTP 200   1624 ms  gpt-6-sol-medium               tool_use
+OK   codigo-pesado                                txt  HTTP 200   1927 ms  gpt-6-astra-high               110 chars
+OK   codigo-pesado                                tool HTTP 200   2409 ms  gpt-6-astra-high               tool_use
+OK   contexto-longo                               txt  HTTP 200   2413 ms  gpt-6-sol-high                 117 chars
+OK   texto                                        txt  HTTP 200  33502 ms  gemma4:12b                     110 chars
+OK   analise                                      txt  HTTP 200  33654 ms  gemma4:12b                     107 chars
+OK   rapido                                       txt  HTTP 200  58556 ms  gemma4:12b                     109 chars
+OK   maximo                                       tool HTTP 200   1934 ms  gpt-6-astra-max                tool_use
+OK   maximo                                       txt  HTTP 200  60997 ms  gemma4:12b                     107 chars
+OK   revisor-seguranca                            txt  HTTP 200  13885 ms  gemma4:12b                     107 chars
+OK   compactador                                  txt  HTTP 200   1690 ms  gpt-6-sol-medium               110 chars
+OK   aprimorador                                  txt  HTTP 200   2054 ms  gpt-6-astra-high               111 chars
+OK   executor-claude                              txt  HTTP 200   2538 ms  gpt-6-astra-high               111 chars
+OK   executor-claude                              tool HTTP 200   2410 ms  gpt-6-astra-high               tool_use
+OK   executor-codex                               txt  HTTP 200   2202 ms  gpt-6-astra-high               115 chars
+OK   executor-codex                               tool HTTP 200   1893 ms  gpt-6-astra-high               tool_use
+OK   executor-antigravity                         txt  HTTP 200   1531 ms  gpt-6-sol-high                 81 chars
+OK   executor-antigravity                         tool HTTP 200   1651 ms  gpt-6-sol-high                 tool_use
+OK   executor-copilot                             txt  HTTP 200   1886 ms  gpt-6-sol-high                 93 chars
+OK   executor-copilot                             tool HTTP 200   1587 ms  gpt-6-sol-high                 tool_use
+OK   processador-privado-local                    txt  HTTP 200 138537 ms  orq-gemma:latest               98 chars
+OK   gerente-jarvis                               txt  HTTP 200 113668 ms  gemma4:12b                     107 chars
+OK   gerente-jarvis                               tool HTTP 200  61845 ms  gpt-6-astra-high               tool_use
+
+Resumo: 29/29 OK
+exit=0

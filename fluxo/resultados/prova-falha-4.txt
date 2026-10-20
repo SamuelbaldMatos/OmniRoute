@@ -1,0 +1,21 @@
+2026-10-20T20:50:49.963Z  combo-base: codigo = cx/gpt-6-sol-medium > cx/gpt-6-luna-high > cx/gpt-6-luna-medium > agy/claude-sonnet-4-6 > moonshot/kimi-k2.7-code > ollama-local/gemma4:12b
+
+OK    prova-falha-1-desabilitado txt  1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 2289 ms; respondeu gemma4:12b: Failover é um mecanismo de redundância que garante a continuidade de u
+OK    prova-falha-1-desabilitado tool 1º alvo: cc/claude-sonnet-5
+      HTTP 200 em 15543 ms; respondeu gemma4:12b: tool_use {"a":17,"b":25}
+OK    prova-falha-2-fora-catalogo txt  1º alvo: agy/gemini-pro-agent
+      HTTP 200 em 44722 ms; respondeu gemma4:12b: Failover é o processo automático de alternar para um sistema ou compon
+OK    prova-falha-2-fora-catalogo tool 1º alvo: agy/gemini-pro-agent
+      HTTP 200 em 57323 ms; respondeu gemma4:12b: tool_use {"a":17,"b":25}
+OK    prova-falha-3-pendurado    txt  1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 61558 ms; respondeu gpt-6-sol-medium: Failover é a transferência automática de um serviço para um sistema de
+OK    prova-falha-3-pendurado    tool 1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 61741 ms; respondeu gpt-6-sol-medium: tool_use {"a":17,"b":25}
+OK    prova-falha-4-lento-hedging txt  1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 65170 ms; respondeu gpt-6-astra-xhigh: Failover é a transferência da operação de um sistema principal para um
+OK    prova-falha-4-lento-hedging tool 1º alvo: ollama-local/orq-qwen:latest
+      HTTP 200 em 62050 ms; respondeu gpt-6-astra-xhigh: tool_use {"a":17,"b":25}
+
+combos temporários restantes: 0
+exit=0

@@ -1,0 +1,96 @@
+{
+ "quando": "2026-10-20T20:50:34.905Z",
+ "modo": "combos",
+ "res": [
+  {
+   "modelo": "complexo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 24121,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 1306,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "complexo"
+   ]
+  },
+  {
+   "modelo": "revisor",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 10287,
+   "respondeu": "gpt-6-sol-high",
+   "texto": 945,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor"
+   ]
+  },
+  {
+   "modelo": "codigo-pesado",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 11181,
+   "respondeu": "gpt-6-astra-high",
+   "texto": 1382,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "codigo-pesado"
+   ]
+  },
+  {
+   "modelo": "contexto-longo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 47492,
+   "respondeu": "gemma4:12b",
+   "texto": 852,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "contexto-longo"
+   ]
+  },
+  {
+   "modelo": "maximo",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 58229,
+   "respondeu": "gemma4:12b",
+   "texto": 940,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "maximo"
+   ]
+  },
+  {
+   "modelo": "revisor-seguranca",
+   "ferramenta": false,
+   "status": 200,
+   "ms": 26210,
+   "respondeu": "gpt-6-astra-xhigh",
+   "texto": 1311,
+   "tool": false,
+   "stop": "end_turn",
+   "ok": true,
+   "erro": "",
+   "combos": [
+    "revisor-seguranca"
+   ]
+  }
+ ]
+}

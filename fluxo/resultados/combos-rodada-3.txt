@@ -1,0 +1,33 @@
+2026-10-20T20:11:33.724Z  combos: 29 chamadas, max_tokens=600
+OK   orquestrador                                 tool HTTP 200   2005 ms  gpt-6-astra-high               tool_use
+OK   orquestrador                                 txt  HTTP 200   2168 ms  gpt-6-astra-high               110 chars
+OK   complexo                                     tool HTTP 200   2171 ms  gpt-6-astra-xhigh              tool_use
+OK   revisor                                      txt  HTTP 200   1776 ms  gpt-6-sol-high                 93 chars
+OK   codigo                                       tool HTTP 200   1904 ms  gpt-6-sol-medium               tool_use
+OK   codigo                                       txt  HTTP 200   1986 ms  gpt-6-sol-medium               111 chars
+OK   complexo                                     txt  HTTP 200   5730 ms  gpt-6-astra-xhigh              114 chars
+OK   codigo-pesado                                txt  HTTP 200   2028 ms  gpt-6-astra-high               110 chars
+OK   contexto-longo                               txt  HTTP 200   1785 ms  gpt-6-sol-high                 107 chars
+OK   codigo-pesado                                tool HTTP 200   2244 ms  gpt-6-astra-high               tool_use
+OK   analise                                      txt  HTTP 200   1574 ms  gpt-6-sol-medium               127 chars
+OK   rapido                                       txt  HTTP 200   1569 ms  gpt-6-sol-medium               81 chars
+OK   texto                                        txt  HTTP 200   1802 ms  gpt-6-sol-medium               93 chars
+FALHA maximo                                       txt  HTTP 0     1548 ms  -                              0 chars  fetch failed
+FALHA revisor-seguranca                            txt  HTTP 0      337 ms  -                              0 chars  fetch failed
+FALHA maximo                                       tool HTTP 0      486 ms  -                              -  fetch failed
+FALHA processador-privado-local                    txt  HTTP 0      364 ms  -                              0 chars  fetch failed
+FALHA compactador                                  txt  HTTP 0        4 ms  -                              0 chars  fetch failed
+FALHA aprimorador                                  txt  HTTP 0        4 ms  -                              0 chars  fetch failed
+FALHA executor-claude                              txt  HTTP 0        5 ms  -                              0 chars  fetch failed
+FALHA executor-claude                              tool HTTP 0        4 ms  -                              -  fetch failed
+FALHA executor-codex                               txt  HTTP 0        4 ms  -                              0 chars  fetch failed
+FALHA executor-codex                               tool HTTP 0        4 ms  -                              -  fetch failed
+FALHA executor-antigravity                         txt  HTTP 0        3 ms  -                              0 chars  fetch failed
+FALHA executor-antigravity                         tool HTTP 0        4 ms  -                              -  fetch failed
+FALHA executor-copilot                             txt  HTTP 0        4 ms  -                              0 chars  fetch failed
+FALHA executor-copilot                             tool HTTP 0        3 ms  -                              -  fetch failed
+FALHA gerente-jarvis                               txt  HTTP 0        3 ms  -                              0 chars  fetch failed
+FALHA gerente-jarvis                               tool HTTP 0        1 ms  -                              -  fetch failed
+
+Resumo: 13/29 OK; falharam: maximo, maximo[tool], processador-privado-local, revisor-seguranca, compactador, aprimorador, executor-claude, executor-claude[tool], executor-codex, executor-codex[tool], executor-antigravity, executor-antigravity[tool], executor-copilot, executor-copilot[tool], gerente-jarvis, gerente-jarvis[tool]
+exit=1

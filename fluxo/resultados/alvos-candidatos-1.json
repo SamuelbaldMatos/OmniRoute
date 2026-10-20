@@ -1,0 +1,276 @@
+{
+ "quando": "2026-10-20T19:05:02.485Z",
+ "modo": "alvos",
+ "res": [
+  {
+   "modelo": "moonshot/kimi-k3",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 2212,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k3] All moonshot accounts blocked by quota preflight (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "moonshot/kimi-k3",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 2205,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k3] All moonshot accounts blocked by quota preflight (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "moonshot/kimi-k2.7-code",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 2118,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k2.7-code] All moonshot accounts blocked by quota preflight (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "moonshot/kimi-k2.7-code",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 2121,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k2.7-code] All moonshot accounts blocked by quota preflight (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "moonshot/kimi-k2.7-code-highspeed",
+   "ferramenta": false,
+   "status": 429,
+   "ms": 39,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k2.7-code-highspeed] Quota preflight blocked for kimi-k2.7-code: 100% (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "moonshot/kimi-k2.7-code-highspeed",
+   "ferramenta": true,
+   "status": 429,
+   "ms": 38,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "[moonshot/kimi-k2.7-code-highspeed] Quota preflight blocked for kimi-k2.7-code: 100% (reset after 5m)",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/gpt-5.6-sol",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 1331,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/gpt-5.6-sol",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 1109,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/claude-sonnet-5",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 2291,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/claude-sonnet-5",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 2055,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/deepseek-v4-pro",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 1897,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/deepseek-v4-pro",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 1919,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/glm-5.2",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 1122,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/glm-5.2",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 1693,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/gemini-3.1-pro",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 1202,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/gemini-3.1-pro",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 1267,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/kimi-k3",
+   "ferramenta": false,
+   "status": 402,
+   "ms": 2044,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  },
+  {
+   "modelo": "cheaperinference/kimi-k3",
+   "ferramenta": true,
+   "status": 402,
+   "ms": 1227,
+   "respondeu": "",
+   "texto": 0,
+   "tool": false,
+   "stop": "",
+   "ok": false,
+   "erro": "Insufficient wallet balance for this request.",
+   "combos": [
+    "(candidato)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+2026-10-20T20:48:59.714Z  combos com prompt grande (~45 KB): 6 chamadas, max_tokens=6000
+OK   revisor                                      txt  HTTP 200  10287 ms  gpt-6-sol-high                 945 chars
+OK   codigo-pesado                                txt  HTTP 200  11181 ms  gpt-6-astra-high               1382 chars
+OK   complexo                                     txt  HTTP 200  24121 ms  gpt-6-astra-xhigh              1306 chars
+OK   contexto-longo                               txt  HTTP 200  47492 ms  gemma4:12b                     852 chars
+OK   maximo                                       txt  HTTP 200  58229 ms  gemma4:12b                     940 chars
+OK   revisor-seguranca                            txt  HTTP 200  26210 ms  gpt-6-astra-xhigh              1311 chars
+
+Resumo: 6/6 OK
+exit=0
